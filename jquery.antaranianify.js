@@ -32,6 +32,6 @@
             
 })(jQuery);
 
-// Feel free to fork and appent new tweets from paul_irish
+// Feel free to fork and append new tweets from paul_irish
 
 
