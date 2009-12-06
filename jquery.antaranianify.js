@@ -3,17 +3,17 @@
     Description: a completely useless jQuery plugin
     Usage: $('div, p').antaranianify(); // it'll replace contents of all selected elements with "antaranian"
 
-    Spelling corrected with help of Vladikoff, here is his last tweet
+    Spelling corrected with help of vladikoff, here is his last tweet
 
     @miketaylr also that #html5 mothership crashed my FF :(    5:44 AM Dec 4th   from web  
 */
     $.fn.antaranian = function(){
         var $els = $(this),
-            selector = $(this).selector;
+            selector = $els.selector;
             /*
                 Use of .selector was suggested by paul_irish so here are his last 5 tweets by Sun Dec 6 08:21:53 AMT 2009. 
             
-                # Digging back into single sign-on/federated login. The latest UX conventions are pretty defined and smart & nice jquery plugins for EZ use.    about 8 hours ago   from TweetDeck
+                Digging back into single sign-on/federated login. The latest UX conventions are pretty defined and smart & nice jquery plugins for EZ use.    about 8 hours ago   from TweetDeck
                   
                 @markbao ah i dont have pings enabled anyway. i'm probably missing something cool. :) about 9 hours ago from TweetDeck in reply to markbao
                   
