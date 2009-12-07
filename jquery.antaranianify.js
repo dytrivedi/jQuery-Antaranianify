@@ -21,7 +21,7 @@
 
                 @rworth perfect! thank you sir. 7:24 PM Dec 4th from web in reply to rworth             
              */
-        $els.each(function(){
+        return $els.each(function(){
             $(this)
                 .find('*').not(selector).remove().end()
                 .append('antaranian');
