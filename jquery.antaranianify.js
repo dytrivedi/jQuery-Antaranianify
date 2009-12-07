@@ -3,9 +3,7 @@
     Description: a completely useless jQuery plugin
     Usage: $('div, p').antaranianify(); // it'll replace contents of all selected elements with "antaranian"
 
-    Spelling corrected with help of vladikoff, here is his last tweet
-
-    @miketaylr also that #html5 mothership crashed my FF :(    5:44 AM Dec 4th   from web  
+    Spelling corrected with help of vladikoff
 */
     $.fn.antaranian = function(){
         var $els = $(this),
