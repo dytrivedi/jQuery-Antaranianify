@@ -10,16 +10,17 @@
             selector = $els.selector;
             /*
                 Use of .selector was suggested by paul_irish so here are his last 5 tweets by Sun Dec 6 08:21:53 AMT 2009. 
-            
-                Digging back into single sign-on/federated login. The latest UX conventions are pretty defined and smart & nice jquery plugins for EZ use.    about 8 hours ago   from TweetDeck
-                  
-                @markbao ah i dont have pings enabled anyway. i'm probably missing something cool. :) about 9 hours ago from TweetDeck in reply to markbao
-                  
-                @getify for LABjs's useCachePreload why not a custom mimetype like type="text/preloadedscript" or type="labjs/script" ? about 10 hours ago from TweetDeck
+                Updated tweets from paul_irish by dytrivedi. As of Feb 6 2010.
 
-                The official jQuery podcast ep 3 and I'm the guest! http://bit.ly/8zaike I talk about webfonts, yayquery, modernizr & hugs 8:37 PM Dec 4th from web
+                @miketaylr do you think there's a good usecase for this in app development? http://foolip.org/microdatajs/live/ /cc @wycats about 13 hours ago from TweetDeck
+                  
+                @yeah_its_me sorries! fixed video on vimeo: http://vimeo.com/9072189 the mp3 is also fixed now. we sorry about 21 hours ago from TweetDeck in reply to yeah_its_me
+                  
+                @stoyanstefanov so happy to hear that. :D 2:32 PM Jan 30th from Echofon in reply to stoyanstefanov
 
-                @rworth perfect! thank you sir. 7:24 PM Dec 4th from web in reply to rworth             
+                @pineagranate why do you think so 12:46 PM Jan 30th from TweetDeck in reply to pineagranate
+
+                @malsup i most enjoy <html class="no-js"> and then (function(H,C){H[C]=H[C].replace(/\bno-js\b/,'js')})(docElement,'className') for FOUC 12:03 PM Jan 30th from TweetDeck in reply to malsup
              */
         return $els.each(function(){
             $(this)
